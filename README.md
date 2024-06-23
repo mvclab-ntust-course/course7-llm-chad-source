@@ -1,2 +1,25 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/WlhqwDRS)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15314530&assignment_repo_type=AssignmentRepo)
+## hw7_1
+#### 設定 LoRA 參數：
+#### r=8
+#### lora_alpha=16
+#### lora_dropout=0.05
+#### task_type="SEQ_CLS"
+#### 指定 LoRA 作用層：
+#### target_modules=["q_lin", "k_lin","v_lin"]
+![](img/7-1.png)
+## hw7_2
+#### 設定 LoRA 參數：
+#### r=8
+#### lora_alpha=16
+#### lora_dropout=0.05
+#### task_type="SEQ_CLS"
+#### 指定 LoRA 作用層：
+#### target_modules=["lin1", "lin2"]
+![](img/7-2.png)
+## hw7_3
+#### 用 IA3 進行 finetuning，參數：
+#### task_type=TaskType.SEQ_CLS,
+#### target_modules=["q_lin", "k_lin", "v_lin", "out_lin", "lin1", "lin2"],
+#### feedforward_modules=["lin1", "lin2"]
+#### optimizer：adamw_hf
+![](img/7-3.png)

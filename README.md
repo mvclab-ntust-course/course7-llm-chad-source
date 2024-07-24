@@ -30,7 +30,7 @@
 [cuda](https://developer.nvidia.com/cuda-toolkit-archive) v11.6  
 [cudnn](https://developer.nvidia.com/rdp/cudnn-archive) 根據cuda版本挑選  
 [libtorch](https://pytorch.org/get-started/previous-versions/) 根據cuda版本挑選(測試使用pytorch==2.1.0 pytorch-cuda=12.1 [下載連結](https://download.pytorch.org/libtorch/cu121/libtorch-win-shared-with-deps-2.2.1%2Bcu121.zip))  
-## Visual Studio 2022 環境設置
+## Visual Studio 2022 環境設置 (路徑皆須調整)
 1. 開啟空白專案
 2. 加入相關程式碼
 3. 專案右鍵/屬性/一般/C++語言標準 : C++17
